@@ -93,7 +93,69 @@ const copyBtn4 = document.getElementById("copy-btn4")
 
     const currentCount = parseInt(copyCount.textContent)
     copyCount.textContent = currentCount + 1;
+})
 
+//sixth card
+   const copyNumber5 = document.getElementById("copy-number5")
+
+  const copyBtn5 = document.getElementById("copy-btn5")
+
+
+
+    copyBtn5.addEventListener("click", function () {
+    const number = document.getElementById("copy-number5").textContent
+    navigator.clipboard.writeText(number);
+
+    const currentCount = parseInt(copyCount.textContent)
+    copyCount.textContent = currentCount + 1;
+})
+// 7th card
+
+  const copyNumber6 = document.getElementById("copy-number6")
+
+  const copyBtn6 = document.getElementById("copy-btn6")
+
+
+
+    copyBtn6.addEventListener("click", function () {
+    const number = document.getElementById("copy-number6").textContent
+    navigator.clipboard.writeText(number);
+
+    const currentCount = parseInt(copyCount.textContent)
+    copyCount.textContent = currentCount + 1;
+})
+
+
+// 8 th card
+
+  const copyNumber7 = document.getElementById("copy-number7")
+
+  const copyBtn7 = document.getElementById("copy-btn7")
+
+
+
+    copyBtn7.addEventListener("click", function () {
+    const number = document.getElementById("copy-number7").textContent
+    navigator.clipboard.writeText(number);
+
+    const currentCount = parseInt(copyCount.textContent)
+    copyCount.textContent = currentCount + 1;
+})
+// 9 th card
+
+  const copyNumber8 = document.getElementById("copy-number8")
+
+  const copyBtn8 = document.getElementById("copy-btn8")
+
+
+
+    copyBtn8.addEventListener("click", function () {
+    const number = document.getElementById("copy-number8").textContent
+    navigator.clipboard.writeText(number);
+
+    const currentCount = parseInt(copyCount.textContent)
+    copyCount.textContent = currentCount + 1;
+})
 
 
 
@@ -293,6 +355,7 @@ callBtn3.addEventListener("click", function () {
 
 
 // call btn 5
+
 const callBtn4 = document.getElementById("call-btn4");
 
 callBtn4.addEventListener("click", function () {
@@ -338,9 +401,206 @@ callBtn4.addEventListener("click", function () {
 
 });
 
+// call btn 6
+
+const callBtn5 = document.getElementById("call-btn5");
+
+callBtn5.addEventListener("click", function () {
+  if (coins < 20) {
+    alert("You don't have enough coins");
+    return;
+  }
+
+  coins -= 20;
+  coinCounter.textContent = coins;
+
+
+  alert("Calling Anti-Corruption HelplineHelpline Number 106");
+
+  const data = {
+    name: "Anti-Corruption Helpline",
+    number: "106",
+    time: new Date().toLocaleTimeString()
+
+  }
+  historyData.push(data)
+
+  const historyContainer = document.getElementById("history-container")
+  for(const data of historyData){
+    const historyDiv = document.createElement("div"); 
+
+   historyDiv.innerHTML = `
+     <div class="flex justify-center gap-20 bg-[#fafafa] rounded-xl">
+          <div class="mt-2 ">
+            <h3 class="font-bold">${data.name}</h3>
+            <p class="text-sm text-[#5c5c5c]">${data.number}</p>
+          </div>
+          <div class="my-5">
+            <p>${data.time}</p>
+          </div>
+       </div>
+  `
+
+      historyContainer.appendChild(historyDiv)
+  }
 
 
 
+});
+
+// call btn 7th
+
+
+const callBtn6 = document.getElementById("call-btn6");
+
+callBtn6.addEventListener("click", function () {
+  if (coins < 20) {
+    alert("You don't have enough coins");
+    return;
+  }
+
+  coins -= 20;
+  coinCounter.textContent = coins;
+
+
+  alert("Calling Anti-Corruption HelplineHelpline Number 106");
+
+  const data = {
+    name: "Electricity Helpline",
+    number: "16216",
+    time: new Date().toLocaleTimeString()
+
+  }
+  historyData.push(data)
+
+  const historyContainer = document.getElementById("history-container")
+  for(const data of historyData){
+    const historyDiv = document.createElement("div"); 
+
+   historyDiv.innerHTML = `
+     <div class="flex justify-center gap-20 bg-[#fafafa] rounded-xl">
+          <div class="mt-2 ">
+            <h3 class="font-bold">${data.name}</h3>
+            <p class="text-sm text-[#5c5c5c]">${data.number}</p>
+          </div>
+          <div class="my-5">
+            <p>${data.time}</p>
+          </div>
+       </div>
+  `
+
+      historyContainer.appendChild(historyDiv)
+  }
 
 
 
+});
+
+//call btn 8
+
+
+
+const callBtn7 = document.getElementById("call-btn7");
+
+callBtn7.addEventListener("click", function () {
+  if (coins < 20) {
+    alert("You don't have enough coins");
+    return;
+  }
+
+  coins -= 20;
+  coinCounter.textContent = coins;
+
+
+  alert("Calling Brac Helpline Number 16445");
+
+  const data = {
+    name: "Brac Helpline",
+    number: "16445",
+    time: new Date().toLocaleTimeString()
+
+  }
+  historyData.push(data)
+
+  const historyContainer = document.getElementById("history-container")
+  for(const data of historyData){
+    const historyDiv = document.createElement("div"); 
+
+   historyDiv.innerHTML = `
+     <div class="flex justify-center gap-20 bg-[#fafafa] rounded-xl">
+          <div class="mt-2 ">
+            <h3 class="font-bold">${data.name}</h3>
+            <p class="text-sm text-[#5c5c5c]">${data.number}</p>
+          </div>
+          <div class="my-5">
+            <p>${data.time}</p>
+          </div>
+       </div>
+  `
+
+      historyContainer.appendChild(historyDiv)
+  }
+
+
+
+});
+
+// call btn 9
+
+const callBtn8 = document.getElementById("call-btn8");
+
+callBtn8.addEventListener("click", function () {
+  if (coins < 20) {
+    alert("You don't have enough coins");
+    return;
+  }
+
+  coins -= 20;
+  coinCounter.textContent = coins;
+
+
+  alert("Calling Bangladesh Railway Helpline Number 163");
+
+  const data = {
+    name: "Bangladesh Railway Helpline",
+    number: "163",
+    time: new Date().toLocaleTimeString()
+
+  }
+  historyData.push(data)
+
+  const historyContainer = document.getElementById("history-container")
+  for(const data of historyData){
+    const historyDiv = document.createElement("div"); 
+
+   historyDiv.innerHTML = `
+     <div class="flex justify-center gap-20 bg-[#fafafa] rounded-xl">
+          <div class="mt-2 ">
+            <h3 class="font-bold">${data.name}</h3>
+            <p class="text-sm text-[#5c5c5c]">${data.number}</p>
+          </div>
+          <div class="my-5">
+            <p>${data.time}</p>
+          </div>
+       </div>
+  `
+
+      historyContainer.appendChild(historyDiv)
+  }
+
+
+
+});
+
+
+//clear btn
+
+const clearBtn = document.getElementById("clear-history")
+
+clearBtn.addEventListener("click",function(){
+  historyData.length = 0;
+  const historyContainer = document.getElementById("history-container")
+  historyContainer.innerHTML = ''
+
+
+})
