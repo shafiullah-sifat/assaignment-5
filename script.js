@@ -186,25 +186,24 @@ callBtn.addEventListener("click", function () {
 
   }
   historyData.push(data)
-
+  
   const historyContainer = document.getElementById("history-container")
-  for(const data of historyData){
+  
     const historyDiv = document.createElement("div"); 
 
    historyDiv.innerHTML = `
-     <div class="flex justify-center gap-20 bg-[#fafafa] rounded-xl my-4">
-          <div class="mt-2 ">
-            <h3 class="font-bold">${data.name}</h3>
-            <p class="text-sm text-[#5c5c5c]">${data.number}</p>
-          </div>
-          <div class="my-5">
-            <p>${data.time}</p>
-          </div>
-       </div>
+  <div class="flex justify-between items-center bg-[#fafafa] rounded-xl my-4 p-4 w-full">
+    <div>
+      <h3 class="font-bold">${data.name}</h3>
+      <p class="text-sm text-[#5c5c5c]">${data.number}</p>
+    </div>
+    <div>
+      <p>${data.time}</p>
+    </div>
+  </div>
   `
 
       historyContainer.appendChild(historyDiv)
-  }
 
 
 
@@ -235,23 +234,22 @@ callBtn1.addEventListener("click", function () {
   historyData.push(data)
 
   const historyContainer = document.getElementById("history-container")
-  for(const data of historyData){
+  
     const historyDiv = document.createElement("div"); 
 
    historyDiv.innerHTML = `
-     <div class="flex justify-center gap-20 bg-[#fafafa] rounded-xl">
-          <div class="mt-2 ">
-            <h3 class="font-bold">${data.name}</h3>
-            <p class="text-sm text-[#5c5c5c]">${data.number}</p>
-          </div>
-          <div class="my-5">
-            <p>${data.time}</p>
-          </div>
-       </div>
+  <div class="flex justify-between items-center bg-[#fafafa] rounded-xl my-4 p-4 w-full">
+    <div>
+      <h3 class="font-bold">${data.name}</h3>
+      <p class="text-sm text-[#5c5c5c]">${data.number}</p>
+    </div>
+    <div>
+      <p>${data.time}</p>
+    </div>
+  </div>
   `
 
       historyContainer.appendChild(historyDiv)
-  }
 
 
 
@@ -282,23 +280,22 @@ callBtn2.addEventListener("click", function () {
   historyData.push(data)
 
   const historyContainer = document.getElementById("history-container")
-  for(const data of historyData){
+  
     const historyDiv = document.createElement("div"); 
 
    historyDiv.innerHTML = `
-     <div class="flex justify-center gap-20 bg-[#fafafa] rounded-xl">
-          <div class="mt-2 ">
-            <h3 class="font-bold">${data.name}</h3>
-            <p class="text-sm text-[#5c5c5c]">${data.number}</p>
-          </div>
-          <div class="my-5">
-            <p>${data.time}</p>
-          </div>
-       </div>
+  <div class="flex justify-between items-center bg-[#fafafa] rounded-xl my-4 p-4 w-full">
+    <div>
+      <h3 class="font-bold">${data.name}</h3>
+      <p class="text-sm text-[#5c5c5c]">${data.number}</p>
+    </div>
+    <div>
+      <p>${data.time}</p>
+    </div>
+  </div>
   `
 
       historyContainer.appendChild(historyDiv)
-  }
 
 
 
@@ -331,23 +328,22 @@ callBtn3.addEventListener("click", function () {
   historyData.push(data)
 
   const historyContainer = document.getElementById("history-container")
-  for(const data of historyData){
+  
     const historyDiv = document.createElement("div"); 
 
    historyDiv.innerHTML = `
-     <div class="flex justify-center gap-20 bg-[#fafafa] rounded-xl">
-          <div class="mt-2 ">
-            <h3 class="font-bold">${data.name}</h3>
-            <p class="text-sm text-[#5c5c5c]">${data.number}</p>
-          </div>
-          <div class="my-5">
-            <p>${data.time}</p>
-          </div>
-       </div>
+  <div class="flex justify-between items-center bg-[#fafafa] rounded-xl my-4 p-4 w-full">
+    <div>
+      <h3 class="font-bold">${data.name}</h3>
+      <p class="text-sm text-[#5c5c5c]">${data.number}</p>
+    </div>
+    <div>
+      <p>${data.time}</p>
+    </div>
+  </div>
   `
 
       historyContainer.appendChild(historyDiv)
-  }
 
 
 
@@ -379,23 +375,22 @@ callBtn4.addEventListener("click", function () {
   historyData.push(data)
 
   const historyContainer = document.getElementById("history-container")
-  for(const data of historyData){
+  
     const historyDiv = document.createElement("div"); 
 
    historyDiv.innerHTML = `
-     <div class="flex justify-center gap-20 bg-[#fafafa] rounded-xl">
-          <div class="mt-2 ">
-            <h3 class="font-bold">${data.name}</h3>
-            <p class="text-sm text-[#5c5c5c]">${data.number}</p>
-          </div>
-          <div class="my-5">
-            <p>${data.time}</p>
-          </div>
-       </div>
+  <div class="flex justify-between items-center bg-[#fafafa] rounded-xl my-4 p-4 w-full">
+    <div>
+      <h3 class="font-bold">${data.name}</h3>
+      <p class="text-sm text-[#5c5c5c]">${data.number}</p>
+    </div>
+    <div>
+      <p>${data.time}</p>
+    </div>
+  </div>
   `
 
       historyContainer.appendChild(historyDiv)
-  }
 
 
 
@@ -426,23 +421,22 @@ callBtn5.addEventListener("click", function () {
   historyData.push(data)
 
   const historyContainer = document.getElementById("history-container")
-  for(const data of historyData){
+  
     const historyDiv = document.createElement("div"); 
 
    historyDiv.innerHTML = `
-     <div class="flex justify-center gap-20 bg-[#fafafa] rounded-xl">
-          <div class="mt-2 ">
-            <h3 class="font-bold">${data.name}</h3>
-            <p class="text-sm text-[#5c5c5c]">${data.number}</p>
-          </div>
-          <div class="my-5">
-            <p>${data.time}</p>
-          </div>
-       </div>
+  <div class="flex justify-between items-center bg-[#fafafa] rounded-xl my-4 p-4 w-full">
+    <div>
+      <h3 class="font-bold">${data.name}</h3>
+      <p class="text-sm text-[#5c5c5c]">${data.number}</p>
+    </div>
+    <div>
+      <p>${data.time}</p>
+    </div>
+  </div>
   `
 
       historyContainer.appendChild(historyDiv)
-  }
 
 
 
@@ -474,23 +468,22 @@ callBtn6.addEventListener("click", function () {
   historyData.push(data)
 
   const historyContainer = document.getElementById("history-container")
-  for(const data of historyData){
+  
     const historyDiv = document.createElement("div"); 
 
    historyDiv.innerHTML = `
-     <div class="flex justify-center gap-20 bg-[#fafafa] rounded-xl">
-          <div class="mt-2 ">
-            <h3 class="font-bold">${data.name}</h3>
-            <p class="text-sm text-[#5c5c5c]">${data.number}</p>
-          </div>
-          <div class="my-5">
-            <p>${data.time}</p>
-          </div>
-       </div>
+  <div class="flex justify-between items-center bg-[#fafafa] rounded-xl my-4 p-4 w-full">
+    <div>
+      <h3 class="font-bold">${data.name}</h3>
+      <p class="text-sm text-[#5c5c5c]">${data.number}</p>
+    </div>
+    <div>
+      <p>${data.time}</p>
+    </div>
+  </div>
   `
 
       historyContainer.appendChild(historyDiv)
-  }
 
 
 
@@ -523,23 +516,22 @@ callBtn7.addEventListener("click", function () {
   historyData.push(data)
 
   const historyContainer = document.getElementById("history-container")
-  for(const data of historyData){
+  
     const historyDiv = document.createElement("div"); 
 
    historyDiv.innerHTML = `
-     <div class="flex justify-center gap-20 bg-[#fafafa] rounded-xl">
-          <div class="mt-2 ">
-            <h3 class="font-bold">${data.name}</h3>
-            <p class="text-sm text-[#5c5c5c]">${data.number}</p>
-          </div>
-          <div class="my-5">
-            <p>${data.time}</p>
-          </div>
-       </div>
+  <div class="flex justify-between items-center bg-[#fafafa] rounded-xl my-4 p-4 w-full">
+    <div>
+      <h3 class="font-bold">${data.name}</h3>
+      <p class="text-sm text-[#5c5c5c]">${data.number}</p>
+    </div>
+    <div>
+      <p>${data.time}</p>
+    </div>
+  </div>
   `
 
       historyContainer.appendChild(historyDiv)
-  }
 
 
 
@@ -570,23 +562,23 @@ callBtn8.addEventListener("click", function () {
   historyData.push(data)
 
   const historyContainer = document.getElementById("history-container")
-  for(const data of historyData){
+  
     const historyDiv = document.createElement("div"); 
 
    historyDiv.innerHTML = `
-     <div class="flex justify-center gap-20 bg-[#fafafa] rounded-xl">
-          <div class="mt-2 ">
-            <h3 class="font-bold">${data.name}</h3>
-            <p class="text-sm text-[#5c5c5c]">${data.number}</p>
-          </div>
-          <div class="my-5">
-            <p>${data.time}</p>
-          </div>
-       </div>
+  <div class="flex justify-between items-center bg-[#fafafa] rounded-xl my-4 p-4 w-full">
+    <div>
+      <h3 class="font-bold">${data.name}</h3>
+      <p class="text-sm text-[#5c5c5c]">${data.number}</p>
+    </div>
+    <div>
+      <p>${data.time}</p>
+    </div>
+  </div>
   `
 
       historyContainer.appendChild(historyDiv)
-  }
+  
 
 
 
